@@ -1,0 +1,12 @@
+18/08/2022 15:33:00 - https://random-status-code.herokuapp.com - online: false
+18/08/2022 15:33:01 - https://www.alura.com.br - online: true
+18/08/2022 15:33:01 - https://www.caelum.com.br - online: true
+18/08/2022 15:33:01 - https://finanzero.com.br/ - online: true
+18/08/2022 15:33:07 - https://random-status-code.herokuapp.com - online: true
+18/08/2022 15:33:07 - https://www.alura.com.br - online: true
+18/08/2022 15:33:08 - https://www.caelum.com.br - online: true
+18/08/2022 15:33:08 - https://finanzero.com.br/ - online: true
+18/08/2022 15:33:13 - https://random-status-code.herokuapp.com - online: false
+18/08/2022 15:33:13 - https://www.alura.com.br - online: true
+18/08/2022 15:33:13 - https://www.caelum.com.br - online: true
+18/08/2022 15:33:13 - https://finanzero.com.br/ - online: true
