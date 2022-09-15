@@ -1,6 +1,6 @@
 package contas
 
-import "github.com/alura/banco/clientes"
+import "golang_course/segundo_modulo/clientes"
 
 type ContaPoupanca struct {
 	Titular                              clientes.Titular

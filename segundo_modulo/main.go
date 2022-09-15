@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/alura/banco/contas"
+	"golang_course/segundo_modulo/contas"
 )
 
 func PagarBoleto(conta verificarConta, valorDoBoleto float64) {

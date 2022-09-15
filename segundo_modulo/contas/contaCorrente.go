@@ -1,6 +1,6 @@
 package contas
 
-import "github.com/alura/banco/clientes"
+import "github.com/ElenC02/golang_course/segundo_modulo/clientes"
 
 type ContaCorrente struct {
 	Titular                    clientes.Titular
