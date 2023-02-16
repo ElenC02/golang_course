@@ -3,12 +3,11 @@ package db
 import (
 	"database/sql"
 
-	// _ "github.com/lib/pq"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func ConectaComBancoDeDados() *sql.DB {
-	conexao := "user=postgres dbname=alura_loja password=12345678 host=localhost sslmode=disable"
-	db, err := sql.Open("postgres", conexao)
+	db, err := sql.Open("mysql", "elencdeo:12EA56@tcp(localhost:3306)/tcc_outlier")
 	if err != nil {
 		panic(err.Error())
 	}
