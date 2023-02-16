@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"golang_course/terceiro_modulo/routes"
+	"github.com/Elen0207/golang_course/terceiro_modulo/src/routes"
 )
 
 func main() {

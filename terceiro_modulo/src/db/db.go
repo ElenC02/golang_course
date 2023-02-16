@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	_ "github.com/lib/pq"
+	// _ "github.com/lib/pq"
 )
 
 func ConectaComBancoDeDados() *sql.DB {

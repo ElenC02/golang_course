@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"golang_course/segundo_modulo/contas"
+	"github.com/Elen0207/golang_course/segundo_modulo/contas"
 )
 
 func PagarBoleto(conta verificarConta, valorDoBoleto float64) {

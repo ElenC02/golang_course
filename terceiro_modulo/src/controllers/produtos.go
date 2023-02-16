@@ -6,10 +6,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"golang_course/terceiro_modulo/models"
+	"github.com/Elen0207/golang_course/terceiro_modulo/src/models"
 )
 
-var temp = template.Must(template.ParseGlob("templates/*.html"))
+var temp = template.Must(template.ParseGlob("github.com/Elen0207/golang_course/terceiro_modulo/src/templates/*.html"))
+var redirect = 301
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	todosOsProdutos := models.BuscaTodosOsProdutos()
@@ -39,5 +40,11 @@ func Insert(w http.ResponseWriter, r *http.Request) {
 
 		models.CriaNovoProduto(nome, descricao, precoConvertidoParaFloat, quantidadeConvertidaParaInt)
 	}
-	http.Redirect(w, r, "/", 301)
+	http.Redirect(w, r, "/", redirect)
+}
+
+func Delete(w http.ResponseWriter, r *http.Request) {
+	idDoProduto := r.URL.Query().Get("id")
+	models.DeletaProduto(idDoProduto)
+	http.Redirect(w, r, "/", redirect)
 }

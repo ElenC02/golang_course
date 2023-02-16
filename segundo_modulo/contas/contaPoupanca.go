@@ -1,6 +1,6 @@
 package contas
 
-import "golang_course/segundo_modulo/clientes"
+import "github.com/Elen0207/golang_course/segundo_modulo/clientes"
 
 type ContaPoupanca struct {
 	Titular                              clientes.Titular
